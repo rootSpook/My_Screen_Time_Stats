@@ -5,7 +5,7 @@
 Sabanci University DSA210 Introduction to Data Science Course Fall 2024-2025 Term Project.  
 This project analyzes the relationship between screen time and notifications received across different apps.
 
-For the final report, see [here](https://github.com/rootSpook/My_Screen_Time_Stats).
+For the final report, see [here](https://github.com/rootSpook/My_Screen_Time_Stats/).
 
 ## Table of Contents
 **[Motivation](#motivation)**  
@@ -74,7 +74,7 @@ Findings and detailed analysis steps can be found in `main.ipynb`.
 1. There is no significant correlation between screen time and notifications.  
 2. Linear regression shows a weak relationship, with a very low R² value.  
 
-_For detailed findings, see the [final report](https://yourwebsite.github.io/screen-time-analysis)._  
+_For detailed findings, see the [final report](https://github.com/rootSpook/My_Screen_Time_Stats/)._  
 
 ## Limitations
 
