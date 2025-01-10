@@ -2,7 +2,7 @@
 
 ## Description
 
-Sabanci University CS210 Introduction to Data Science Course Fall 2023-2024 Term Project.  
+Sabanci University DSA210 Introduction to Data Science Course Fall 2024-2025 Term Project.  
 This project analyzes the relationship between screen time and notifications received across different apps.
 
 For the final report, see [here](https://github.com/rootSpook/My_Screen_Time_Stats).

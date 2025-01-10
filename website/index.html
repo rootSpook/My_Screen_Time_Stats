@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Time Analysis</title>
+    <style>
+        /* Basic styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+        .navbar li {
+            margin: 0 15px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+        img {
+            max-width: 80%;
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#visualizations">Visualizations</a></li>
+            <li><a href="#analysis">Analysis</a></li>
+            <li><a href="#conclusion">Conclusion</a></li>
+        </ul>
+    </nav>
+
+    <section id="introduction">
+        <h1>Screen Time and Notifications Analysis</h1>
+        <p>This project explores the relationship between screen time and notifications across different apps.</p>
+    </section>
+
+    <section id="visualizations">
+        <h2>Visualizations</h2>
+        <p>Below are the key visualizations from our analysis.</p>
+        <img src="images/1.png" alt="Total Screen Time per Day">
+        <img src="images/2.png" alt="Time per Notification Ratio">
+        <img src="images/3.png" alt="Comparison of Screen Time and Notifications">
+    </section>
+
+    <section id="analysis">
+        <h2>Analysis</h2>
+        <p>The analysis shows a weak or no correlation between screen time and notifications. Below is the regression analysis:</p>
+        <img src="images/4.png" alt="Scatter Plot - Screen Time vs. Notifications">
+        <img src="images/5.png" alt="Linear Regression Analysis">
+    </section>
+
+    <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>Our findings indicate no significant relationship between the number of notifications and the screen time. Further exploration could include additional metrics or broader datasets.</p>
+    </section>
+
+    <footer>
+        <p>Created by Dogukan Dogan</p>
+    </footer>
+</body>
+</html>
